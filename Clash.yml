@@ -54,8 +54,6 @@ proxies:
   - {name: Libya 🇱🇾, server: 41.208.72.204, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
   - {name: Nigeria 🇳🇬, server: 102.165.23.44, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
   - {name: South Africa 🇿🇦, server: 154.127.57.71, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Turkey 🇹🇷, server: 185.195.79.5, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: United Arab Emirates 🇦🇪, server: 45.9.249.243, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
   - {name: France 🇫🇷 1, server: 185.166.84.21, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
   - {name: France 🇫🇷 2, server: 45.89.174.103, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
   - {name: France 🇫🇷 3, server: 185.108.106.21, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
@@ -183,9 +181,7 @@ proxy-groups:
       - Switzerland 🇨🇭
       - Taiwan 🇹🇼
       - Thailand 🇹🇭
-      - Turkey 🇹🇷
       - Ukraine 🇺🇦
-      - United Arab Emirates 🇦🇪
       - United Kingdom 🇬🇧 1
       - United Kingdom 🇬🇧 2
       - United Kingdom 🇬🇧 3
@@ -298,9 +294,7 @@ proxy-groups:
       - Switzerland 🇨🇭
       - Taiwan 🇹🇼
       - Thailand 🇹🇭
-      - Turkey 🇹🇷
       - Ukraine 🇺🇦
-      - United Arab Emirates 🇦🇪
       - United Kingdom 🇬🇧 1
       - United Kingdom 🇬🇧 2
       - United Kingdom 🇬🇧 3
