@@ -1,7 +1,7 @@
 port: 7890
 socks-port: 7891
 allow-lan: true 
-mode: Rule 
+mode: Global 
 log-level: silent 
 external-controller: 127.0.0.1:9090
 
@@ -322,13 +322,3 @@ proxy-groups:
       - Vietnam 🇻🇳
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
-
-
-rules:
-  - DOMAIN-SUFFIX,google.com,🔰 Select
-  - DOMAIN-KEYWORD,google,🔰 Select
-  - DOMAIN,google.com,🔰 Select
-  - DOMAIN-SUFFIX,ad.com,🚫 Intercept
-  - IP-CIDR,127.0.0.0/8,✅ Direct
-  - GEOIP,IR,✅ Direct
-  - MATCH,🔰 Select
