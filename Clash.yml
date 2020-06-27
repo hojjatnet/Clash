@@ -1,7 +1,7 @@
 port: 7890
 socks-port: 7891
 allow-lan: true 
-mode: Global 
+mode: Rule 
 log-level: silent 
 external-controller: 127.0.0.1:9090
 
@@ -26,9 +26,7 @@ proxies:
   - {name: Iceland 🇮🇸, server: 82.221.128.166, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
   - {name: Luxembourg 🇱🇺, server: 185.153.151.75, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
   - {name: Ireland 🇮🇪, server: 185.108.128.159, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Moldova 🇲🇩, server: 178.175.148.39, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
   - {name: Netherlands 🇳🇱, server: 81.19.208.68, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Macedonia 🇲🇰, server: 185.225.28.107, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
   - {name: Norway 🇳🇴, server: 45.12.223.197, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
   - {name: Romania 🇷🇴, server: 194.68.44.61, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
   - {name: Russia 🇷🇺, server: 213.183.56.18, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
@@ -38,22 +36,6 @@ proxies:
   - {name: Sweden 🇸🇪, server: 46.227.69.21, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
   - {name: Switzerland 🇨🇭, server: 84.17.53.208, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
   - {name: Ukraine 🇺🇦, server: 45.9.238.38, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Hong Kong 🇭🇰, server: 84.17.57.148, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Indonesia 🇮🇩, server: 103.227.255.211, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Kazakhstan 🇰🇿, server: 45.136.56.61, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Malaysia 🇲🇾, server: 42.0.30.160, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: New Zealand 🇳🇿, server: 180.149.231.115, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Singapore 🇸🇬, server: 209.58.170.169, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: South Korea 🇰🇷, server: 61.14.210.239, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Taiwan 🇹🇼, server: 103.51.140.72, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Thailand 🇹🇭, server: 45.64.186.132, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Vietnam 🇻🇳, server: 202.143.110.32, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Brazil 🇧🇷, server: 181.215.183.248, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Chile 🇨🇱, server: 31.169.121.16, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Paraguay 🇵🇾, server: 181.40.18.59, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Libya 🇱🇾, server: 41.208.72.204, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Nigeria 🇳🇬, server: 102.165.23.44, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: South Africa 🇿🇦, server: 154.127.57.71, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
   - {name: France 🇫🇷 1, server: 185.166.84.21, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
   - {name: France 🇫🇷 2, server: 45.89.174.103, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
   - {name: France 🇫🇷 3, server: 185.108.106.21, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
@@ -71,11 +53,6 @@ proxies:
   - {name: United Kingdom 🇬🇧 1, server: 185.193.36.208, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
   - {name: United Kingdom 🇬🇧 2, server: 217.138.196.91, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
   - {name: United Kingdom 🇬🇧 3, server: 185.108.105.3, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Australia 🇦🇺 1, server: 124.150.139.27, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Australia 🇦🇺 2, server: 45.248.79.87, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Australia 🇦🇺 3, server: 45.248.77.235, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Australia 🇦🇺 4, server: 144.48.38.147, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Australia 🇦🇺 5, server: 45.248.76.171, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
   - {name: India 🇮🇳 1, server: 103.221.233.91, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
   - {name: India 🇮🇳 2, server: 103.39.132.189, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
   - {name: India 🇮🇳 3, server: 103.108.117.147, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
@@ -114,19 +91,12 @@ proxy-groups:
       - CloudFlare1
       - CloudFlare2
       - Albania 🇦🇱
-      - Australia 🇦🇺 1
-      - Australia 🇦🇺 2
-      - Australia 🇦🇺 3
-      - Australia 🇦🇺 4
-      - Australia 🇦🇺 5
       - Austria 🇦🇹
       - Belgium 🇧🇪
-      - Brazil 🇧🇷
       - Bulgaria 🇧🇬
       - Canada 🇨🇦 1
       - Canada 🇨🇦 2
       - Canada 🇨🇦 3
-      - Chile 🇨🇱
       - Croatia 🇭🇷
       - Cyprus 🇨🇾
       - Czech Republic 🇨🇿
@@ -139,28 +109,18 @@ proxy-groups:
       - Germany 🇩🇪 1
       - Germany 🇩🇪 2
       - Greece 🇬🇷
-      - Hong Kong 🇭🇰
       - Hungary 🇭🇺
       - Iceland 🇮🇸
       - India 🇮🇳 1
       - India 🇮🇳 2
       - India 🇮🇳 3
-      - Indonesia 🇮🇩
       - Ireland 🇮🇪
       - Italy 🇮🇹 1
       - Italy 🇮🇹 2
       - Italy 🇮🇹 3
-      - Kazakhstan 🇰🇿
-      - Libya 🇱🇾
       - Luxembourg 🇱🇺
-      - Macedonia 🇲🇰
-      - Malaysia 🇲🇾
-      - Moldova 🇲🇩
       - Netherlands 🇳🇱
-      - New Zealand 🇳🇿
-      - Nigeria 🇳🇬
       - Norway 🇳🇴
-      - Paraguay 🇵🇾
       - Poland 🇵🇱 1
       - Poland 🇵🇱 2
       - Portugal 🇵🇹 1
@@ -169,18 +129,13 @@ proxy-groups:
       - Romania 🇷🇴
       - Russia 🇷🇺
       - Serbia 🇷🇸
-      - Singapore 🇸🇬
       - Slovakia 🇸🇰
       - Slovenia 🇸🇮
-      - South Africa 🇿🇦
-      - South Korea 🇰🇷
       - Spain 🇪🇸 1
       - Spain 🇪🇸 2
       - Spain 🇪🇸 3
       - Sweden 🇸🇪
       - Switzerland 🇨🇭
-      - Taiwan 🇹🇼
-      - Thailand 🇹🇭
       - Ukraine 🇺🇦
       - United Kingdom 🇬🇧 1
       - United Kingdom 🇬🇧 2
@@ -206,7 +161,6 @@ proxy-groups:
       - United States 🇺🇸 19
       - United States 🇺🇸 20
       - United States 🇺🇸 21
-      - Vietnam 🇻🇳
 
 
   - name: ✅ Direct
@@ -227,19 +181,12 @@ proxy-groups:
       - CloudFlare1
       - CloudFlare2
       - Albania 🇦🇱
-      - Australia 🇦🇺 1
-      - Australia 🇦🇺 2
-      - Australia 🇦🇺 3
-      - Australia 🇦🇺 4
-      - Australia 🇦🇺 5
       - Austria 🇦🇹
       - Belgium 🇧🇪
-      - Brazil 🇧🇷
       - Bulgaria 🇧🇬
       - Canada 🇨🇦 1
       - Canada 🇨🇦 2
       - Canada 🇨🇦 3
-      - Chile 🇨🇱
       - Croatia 🇭🇷
       - Cyprus 🇨🇾
       - Czech Republic 🇨🇿
@@ -252,28 +199,18 @@ proxy-groups:
       - Germany 🇩🇪 1
       - Germany 🇩🇪 2
       - Greece 🇬🇷
-      - Hong Kong 🇭🇰
       - Hungary 🇭🇺
       - Iceland 🇮🇸
       - India 🇮🇳 1
       - India 🇮🇳 2
       - India 🇮🇳 3
-      - Indonesia 🇮🇩
       - Ireland 🇮🇪
       - Italy 🇮🇹 1
       - Italy 🇮🇹 2
       - Italy 🇮🇹 3
-      - Kazakhstan 🇰🇿
-      - Libya 🇱🇾
       - Luxembourg 🇱🇺
-      - Macedonia 🇲🇰
-      - Malaysia 🇲🇾
-      - Moldova 🇲🇩
       - Netherlands 🇳🇱
-      - New Zealand 🇳🇿
-      - Nigeria 🇳🇬
       - Norway 🇳🇴
-      - Paraguay 🇵🇾
       - Poland 🇵🇱 1
       - Poland 🇵🇱 2
       - Portugal 🇵🇹 1
@@ -282,18 +219,13 @@ proxy-groups:
       - Romania 🇷🇴
       - Russia 🇷🇺
       - Serbia 🇷🇸
-      - Singapore 🇸🇬
       - Slovakia 🇸🇰
       - Slovenia 🇸🇮
-      - South Africa 🇿🇦
-      - South Korea 🇰🇷
       - Spain 🇪🇸 1
       - Spain 🇪🇸 2
       - Spain 🇪🇸 3
       - Sweden 🇸🇪
       - Switzerland 🇨🇭
-      - Taiwan 🇹🇼
-      - Thailand 🇹🇭
       - Ukraine 🇺🇦
       - United Kingdom 🇬🇧 1
       - United Kingdom 🇬🇧 2
@@ -319,6 +251,15 @@ proxy-groups:
       - United States 🇺🇸 19
       - United States 🇺🇸 20
       - United States 🇺🇸 21
-      - Vietnam 🇻🇳
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
+
+
+rules:
+  - DOMAIN-SUFFIX,google.com,🔰 Select
+  - DOMAIN-KEYWORD,google,🔰 Select
+  - DOMAIN,google.com,🔰 Select
+  - DOMAIN-SUFFIX,ad.com,🚫 Intercept
+  - IP-CIDR,127.0.0.0/8,✅ Direct
+  - GEOIP,IR,✅ Direct
+  - MATCH,🔰 Select
