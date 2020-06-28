@@ -17,7 +17,6 @@ proxies:
   - {name: Germany 🇩🇪 2, server: 74.119.145.51, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
   - {name: Luxembourg 🇱🇺, server: 185.153.151.75, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
   - {name: Netherlands 🇳🇱, server: 81.19.208.68, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Romania 🇷🇴, server: 194.68.44.61, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
   - {name: Russia 🇷🇺, server: 213.183.56.18, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
   - {name: Sweden 🇸🇪, server: 46.227.69.21, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
   - {name: Switzerland 🇨🇭, server: 84.17.53.208, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
@@ -68,7 +67,6 @@ proxy-groups:
       - Portugal 🇵🇹 1
       - Portugal 🇵🇹 2
       - Portugal 🇵🇹 3
-      - Romania 🇷🇴
       - Russia 🇷🇺
       - Spain 🇪🇸 1
       - Spain 🇪🇸 2
@@ -116,7 +114,6 @@ proxy-groups:
       - Portugal 🇵🇹 1
       - Portugal 🇵🇹 2
       - Portugal 🇵🇹 3
-      - Romania 🇷🇴
       - Russia 🇷🇺
       - Spain 🇪🇸 1
       - Spain 🇪🇸 2
