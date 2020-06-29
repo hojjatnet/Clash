@@ -10,34 +10,36 @@ proxies:
   - {name: ArgoVPN2, type: vmess, server: xey.wrxjys.tech, port: 443, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: { Host: xey.wrxjys.tech }}
   - {name: CloudFlare1, server: 1.1.1.7, port: 443, type: ss, cipher: aes-128-gcm, password: bUXqEedAOElk, plugin: v2ray-plugin, plugin-opts: { mode: websocket , tls: true ,host : v6.lordmoviez.xyz , path : / , mux : 16 }}
   - {name: CloudFlare2, server: cloudflare.com, port: 443, type: ss, cipher: aes-128-gcm, password: bUXqEedAOElk, plugin: v2ray-plugin, plugin-opts: { mode: websocket , tls: true ,host : club1.cryptostart.online , path : //dasdsadsadsadsadasdewqeqwe , mux : 32 }}
-  - {name: Austria 🇦🇹, server: 91.132.139.101, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Belgium 🇧🇪, server: 185.232.21.51, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Denmark 🇩🇰, server: 45.12.221.179, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Finland 🇫🇮, server: 196.244.191.163, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Germany 🇩🇪 1, server: 37.120.217.181, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Germany 🇩🇪 2, server: 74.119.145.51, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Luxembourg 🇱🇺, server: 185.153.151.75, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Netherlands 🇳🇱, server: 81.19.208.68, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Russia 🇷🇺, server: 213.183.56.18, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Sweden 🇸🇪, server: 46.227.69.21, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Switzerland 🇨🇭, server: 84.17.53.208, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
+  - {name: Finland 🇫🇮 1, server: 196.244.191.163, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
+  - {name: Finland 🇫🇮 2, server: 185.117.118.224, port: 712, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
   - {name: France 🇫🇷 1, server: 185.166.84.21, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
   - {name: France 🇫🇷 2, server: 45.89.174.103, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
   - {name: France 🇫🇷 3, server: 185.108.106.21, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
+  - {name: Germany 🇩🇪 1, server: 37.120.217.181, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Germany 🇩🇪 2, server: 74.119.145.51, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
+  - {name: Germany 🇩🇪 3, server: ec2-3-123-16-81.eu-central-1.compute.amazonaws.com, port: 712, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Germany 🇩🇪 4, server: 85.14.243.111, port: 712, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Germany 🇩🇪 5, server: 62.141.42.18, port: 712, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Germany 🇩🇪 6, server: srv20509.dus4.dedicated.server-hosting.expert, port: 712, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Germany 🇩🇪 7, server: 51.89.21.77, port: 712, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Germany 🇩🇪 8, server: 51.89.21.82, port: 712, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
   - {name: Italy 🇮🇹 1, server: 185.128.27.39, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
   - {name: Italy 🇮🇹 2, server: 217.138.219.229, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
   - {name: Italy 🇮🇹 3, server: 212.102.54.152, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Poland 🇵🇱 1, server: 5.253.206.75, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Poland 🇵🇱 2, server: 5.187.49.187, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Portugal 🇵🇹 1, server: 5.154.174.117, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Portugal 🇵🇹 2, server: 194.39.127.21, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Portugal 🇵🇹 3, server: 176.61.146.123, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Spain 🇪🇸 1, server: 37.120.142.181, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Spain 🇪🇸 2, server: 196.196.150.67, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Spain 🇪🇸 3, server: 37.120.148.215, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Luxembourg 🇱🇺, server: 185.153.151.75, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
+  - {name: Netherlands 🇳🇱 1, server: 81.19.208.68, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Netherlands 🇳🇱 2, server: 37.120.192.158, port: 712, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: Switzerland 🇨🇭 1, server: 84.17.53.208, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
+  - {name: Switzerland 🇨🇭 2, server: 45.12.206.158, port: 712, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
   - {name: United Kingdom 🇬🇧 1, server: 185.193.36.208, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
   - {name: United Kingdom 🇬🇧 2, server: 217.138.196.91, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
   - {name: United Kingdom 🇬🇧 3, server: 185.108.105.3, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
+  - {name: United Kingdom 🇬🇧 4, server: 88.150.240.246, port: 712, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: United Kingdom 🇬🇧 5, server: 77.68.83.145, port: 712, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: United Kingdom 🇬🇧 6, server: h88-150-241-7.host.redstation.co.uk, port: 712, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: United Kingdom 🇬🇧 7, server: ionh.dnscome.com, port: 712, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: United Kingdom 🇬🇧 8, server: 185.44.78.49, port: 712, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
+  - {name: United Kingdom 🇬🇧 9, server: 178.239.166.133, port: 712, type: ss, cipher: chacha20-ietf-poly1305, password: s7x3}
 
 
 proxy-groups:
@@ -50,34 +52,36 @@ proxy-groups:
       - ArgoVPN2
       - CloudFlare1
       - CloudFlare2
-      - Austria 🇦🇹
-      - Belgium 🇧🇪
-      - Denmark 🇩🇰
-      - Finland 🇫🇮
+      - Finland 🇫🇮 1
+      - Finland 🇫🇮 2
       - France 🇫🇷 1
       - France 🇫🇷 2
       - France 🇫🇷 3
       - Germany 🇩🇪 1
       - Germany 🇩🇪 2
+      - Germany 🇩🇪 3
+      - Germany 🇩🇪 4
+      - Germany 🇩🇪 5
+      - Germany 🇩🇪 6
+      - Germany 🇩🇪 7
+      - Germany 🇩🇪 8
       - Italy 🇮🇹 1
       - Italy 🇮🇹 2
       - Italy 🇮🇹 3
       - Luxembourg 🇱🇺
-      - Netherlands 🇳🇱
-      - Poland 🇵🇱 1
-      - Poland 🇵🇱 2
-      - Portugal 🇵🇹 1
-      - Portugal 🇵🇹 2
-      - Portugal 🇵🇹 3
-      - Russia 🇷🇺
-      - Spain 🇪🇸 1
-      - Spain 🇪🇸 2
-      - Spain 🇪🇸 3
-      - Sweden 🇸🇪
-      - Switzerland 🇨🇭
+      - Netherlands 🇳🇱 1
+      - Netherlands 🇳🇱 2
+      - Switzerland 🇨🇭 1
+      - Switzerland 🇨🇭 2
       - United Kingdom 🇬🇧 1
       - United Kingdom 🇬🇧 2
       - United Kingdom 🇬🇧 3
+      - United Kingdom 🇬🇧 4
+      - United Kingdom 🇬🇧 5
+      - United Kingdom 🇬🇧 6
+      - United Kingdom 🇬🇧 7
+      - United Kingdom 🇬🇧 8
+      - United Kingdom 🇬🇧 9
 
 
   - name: ✅ Direct
@@ -98,34 +102,36 @@ proxy-groups:
       - ArgoVPN2
       - CloudFlare1
       - CloudFlare2
-      - Austria 🇦🇹
-      - Belgium 🇧🇪
-      - Denmark 🇩🇰
-      - Finland 🇫🇮
+      - Finland 🇫🇮 1
+      - Finland 🇫🇮 2
       - France 🇫🇷 1
       - France 🇫🇷 2
       - France 🇫🇷 3
       - Germany 🇩🇪 1
       - Germany 🇩🇪 2
+      - Germany 🇩🇪 3
+      - Germany 🇩🇪 4
+      - Germany 🇩🇪 5
+      - Germany 🇩🇪 6
+      - Germany 🇩🇪 7
+      - Germany 🇩🇪 8
       - Italy 🇮🇹 1
       - Italy 🇮🇹 2
       - Italy 🇮🇹 3
       - Luxembourg 🇱🇺
-      - Netherlands 🇳🇱
-      - Poland 🇵🇱 1
-      - Poland 🇵🇱 2
-      - Portugal 🇵🇹 1
-      - Portugal 🇵🇹 2
-      - Portugal 🇵🇹 3
-      - Russia 🇷🇺
-      - Spain 🇪🇸 1
-      - Spain 🇪🇸 2
-      - Spain 🇪🇸 3
-      - Sweden 🇸🇪
-      - Switzerland 🇨🇭
+      - Netherlands 🇳🇱 1
+      - Netherlands 🇳🇱 2
+      - Switzerland 🇨🇭 1
+      - Switzerland 🇨🇭 2
       - United Kingdom 🇬🇧 1
       - United Kingdom 🇬🇧 2
       - United Kingdom 🇬🇧 3
+      - United Kingdom 🇬🇧 4
+      - United Kingdom 🇬🇧 5
+      - United Kingdom 🇬🇧 6
+      - United Kingdom 🇬🇧 7
+      - United Kingdom 🇬🇧 8
+      - United Kingdom 🇬🇧 9
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
