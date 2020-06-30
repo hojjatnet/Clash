@@ -45,6 +45,11 @@ rules:
   - DOMAIN-KEYWORD,google,🔰 Select
   - DOMAIN,google.com,🔰 Select
   - DOMAIN-SUFFIX,ad.com,🚫 Intercept
+  - IP-CIDR,10.0.0.0/8,✅ Direct
+  - IP-CIDR,172.16.0.0/12,✅ Direct
+  - IP-CIDR,192.168.0.0/16,✅ Direct
   - IP-CIDR,127.0.0.0/8,✅ Direct
+  - IP-CIDR,100.64.0.0/10,✅ Direct
+  - IP-CIDR,224.0.0.0/4,✅ Direct
   - GEOIP,IR,✅ Direct
   - MATCH,🔰 Select
