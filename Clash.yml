@@ -4,8 +4,6 @@ allow-lan: true
 mode: Rule 
 log-level: silent 
 external-controller: 127.0.0.1:9090
-experimental:
-  ignore-resolve-fail: true
 
 proxies:
   - {name: ArgoVPN1, type: vmess, server: llajv.rebldp.tech, port: 443, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: { Host: llajv.rebldp.tech }}
@@ -24,4 +22,4 @@ rules:
   - DOMAIN-SUFFIX,google.com,Auto
   - DOMAIN-KEYWORD,google,Auto
   - DOMAIN,google.com,Auto
-  - MATCH,,Auto,dns-failed
+  - MATCH,Auto
