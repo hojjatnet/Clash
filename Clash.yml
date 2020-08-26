@@ -8,6 +8,38 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: ArgoVPN1, type: vmess, server: llajv.rebldp.tech, port: 443, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: { Host: llajv.rebldp.tech }}
   - {name: ArgoVPN2, type: vmess, server: xey.wrxjys.tech, port: 443, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: { Host: xey.wrxjys.tech }}
+  - {name: Austria , server: 37.120.212.133, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Belgium, server: 37.120.143.123, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Bulgaria, server: 37.120.152.197, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Czech Republic, server: 185.152.64.178, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Denmark, server: 37.120.194.125, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Estonia, server: 165.231.163.19, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Finland, server: 196.244.191.179, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: France 1, server: 185.166.84.3, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: France 2, server: 84.17.43.178, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: France 3, server: 185.108.106.69, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Germany 1, server: 185.102.219.6, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Germany 2, server: 217.138.216.61, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Germany 3, server: 62.171.149.160, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Germany 4, server: 178.238.231.51, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Hungary, server: 37.120.144.215, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Italy 1, server: 82.102.26.115, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Italy 2, server: 84.17.58.150, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Latvia, server: 188.92.78.140, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Luxembourg, server: 185.153.151.89, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Netherlands, server: 89.46.223.217, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Norway, server: 84.247.50.29, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Poland 1, server: 185.246.208.182, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Poland 2, server: 5.187.49.187, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Romania, server: 86.106.137.147, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Slovakia, server: 37.120.221.3, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Slovenia, server: 195.158.249.42, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Sweden, server: 185.76.9.44, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Switzerland, server: 84.17.53.210, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: Ukraine, server: 45.9.238.47, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: United Kingdom 1, server: 5.226.139.65, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: United Kingdom 2, server: 185.108.105.18, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
+  - {name: United Kingdom 3, server: 185.108.105.57, port: 31140, type: ss, cipher: aes-256-gcm, password: A6FwVcjCwTBKmPCYnQGfbPfL, udp: true}
 
 proxy-groups:
   - name: Auto
@@ -15,6 +47,37 @@ proxy-groups:
     proxies:
       - ArgoVPN1
       - ArgoVPN2
+      - Austria
+      - Belgium
+      - Bulgaria
+      - Czech Republic
+      - Denmark
+      - Estonia
+      - Finland
+      - France 1
+      - France 2
+      - Germany 1
+      - Germany 2
+      - Germany 3
+      - Germany 4
+      - Hungary
+      - Italy 1
+      - Italy 2
+      - Latvia
+      - Luxembourg
+      - Netherlands
+      - Norway
+      - Poland 1
+      - Poland 2
+      - Romania
+      - Slovakia
+      - Slovenia
+      - Sweden
+      - Switzerland
+      - Ukraine
+      - United Kingdom 1
+      - United Kingdom 2
+      - United Kingdom 3
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
@@ -22,4 +85,5 @@ rules:
   - DOMAIN-SUFFIX,google.com,Auto
   - DOMAIN-KEYWORD,google,Auto
   - DOMAIN,google.com,Auto
+  - GEOIP,IR,DIRECT
   - MATCH,Auto
