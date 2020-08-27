@@ -8,44 +8,44 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: ArgoVPN1, type: vmess, server: llajv.rebldp.tech, port: 443, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: { Host: llajv.rebldp.tech }}
   - {name: ArgoVPN2, type: vmess, server: xey.wrxjys.tech, port: 443, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: { Host: xey.wrxjys.tech }}
-  - {name: Austria , server: at-vie.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Belgium, server: be-bru.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Bulgaria, server: bg-sof.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Czech Republic, server: cz-prg.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Denmark, server: dk-cph.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Estonia, server: ee-tll.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Finland, server: fi-hel.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: France 1, server: fr-mrs.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: France 2, server: fr-bod.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: France 3, server: fr-par.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Germany 1, server: de-ber.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Germany 2, server: de-fra.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Germany 3, server: de-muc.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Germany 4, server: de-nue.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Hungary, server: hu-bud.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Italy 1, server: it-rom.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Italy 2, server: it-mil.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Latvia, server: lv-rig.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Luxembourg, server: lu-ste.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Netherlands, server: nl-ams.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Norway, server: no-osl.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Poland 1, server: pl-waw.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Poland 2, server: pl-gdn.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Portugal 1, server: pt-lis.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Portugal 2, server: pt-opo.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Portugal 3, server: pt-lou.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Romania, server: ro-buc.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Slovakia, server: sk-bts.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Slovenia, server: si-lju.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Spain 1, server: es-bcn.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Spain 2, server: es-vlc.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Spain 3, server: es-mad.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Sweden, server: se-sto.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Switzerland, server: ch-zur.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: Ukraine, server: ua-iev.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: United Kingdom 1, server: uk-lon.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: United Kingdom 2, server: uk-man.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
-  - {name: United Kingdom 3, server: uk-gla.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq, udp: true}
+  - {name: Austria , server: at-vie.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Belgium, server: be-bru.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Bulgaria, server: bg-sof.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Czech Republic, server: cz-prg.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Denmark, server: dk-cph.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Estonia, server: ee-tll.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Finland, server: fi-hel.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: France 1, server: fr-mrs.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: France 2, server: fr-bod.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: France 3, server: fr-par.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Germany 1, server: de-ber.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Germany 2, server: de-fra.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Germany 3, server: de-muc.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Germany 4, server: de-nue.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Hungary, server: hu-bud.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Italy 1, server: it-rom.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Italy 2, server: it-mil.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Latvia, server: lv-rig.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Luxembourg, server: lu-ste.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Netherlands, server: nl-ams.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Norway, server: no-osl.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Poland 1, server: pl-waw.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Poland 2, server: pl-gdn.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Portugal 1, server: pt-lis.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Portugal 2, server: pt-opo.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Portugal 3, server: pt-lou.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Romania, server: ro-buc.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Slovakia, server: sk-bts.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Slovenia, server: si-lju.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Spain 1, server: es-bcn.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Spain 2, server: es-vlc.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Spain 3, server: es-mad.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Sweden, server: se-sto.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Switzerland, server: ch-zur.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: Ukraine, server: ua-iev.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: United Kingdom 1, server: uk-lon.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: United Kingdom 2, server: uk-man.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: United Kingdom 3, server: uk-gla.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
 
 proxy-groups:
   - name: Auto
