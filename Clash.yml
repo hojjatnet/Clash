@@ -6,32 +6,33 @@ log-level: silent
 external-controller: 127.0.0.1:9090
 
 proxies:
-  - {name: ArgoVPN1, type: vmess, server: llajv.rebldp.tech, port: 443, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: { Host: llajv.rebldp.tech }}
-  - {name: ArgoVPN2, type: vmess, server: xey.wrxjys.tech, port: 443, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: { Host: xey.wrxjys.tech }}
-  - {name: Austria , server: at-vie.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Azerbaijan, server: az-bak.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Belgium, server: be-bru.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Bulgaria, server: bg-sof.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Czech Republic, server: cz-prg.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Denmark, server: dk-cph.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Estonia, server: ee-tll.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Finland, server: fi-hel.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Hungary, server: hu-bud.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Kazakhstan, server: kz-ura.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Latvia, server: lv-rig.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Luxembourg, server: lu-ste.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Netherlands, server: nl-ams.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Norway, server: no-osl.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Romania, server: ro-buc.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Slovakia, server: sk-bts.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Slovenia, server: si-lju.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Sweden, server: se-sto.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Switzerland, server: ch-zur.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Turkey, server: tr-bur.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: Ukraine, server: ua-iev.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: United Kingdom 1, server: uk-lon.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: United Kingdom 2, server: uk-man.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
-  - {name: United Kingdom 3, server: uk-gla.wbnet.cf, port: 35938, type: ss, cipher: aes-256-gcm, password: FeQQ8muhWnKXHeCQ3D8Zjyeq}
+  - {name: ArgoVPN1, type: vmess, server: ahvuxfq.oqnqrysa.com, port: 443, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: { Host: ahvuxfq.oqnqrysa.com }}
+  - {name: ArgoVPN2, type: vmess, server: llajv.rebldp.tech, port: 443, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: { Host: llajv.rebldp.tech }}
+  - {name: ArgoVPN3, type: vmess, server: xey.wrxjys.tech, port: 443, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: { Host: xey.wrxjys.tech }}
+  - {name: Austria , server: at-vie.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: Azerbaijan, server: az-bak.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: Belgium, server: be-bru.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: Bulgaria, server: bg-sof.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: Czech Republic, server: cz-prg.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: Denmark, server: dk-cph.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: Estonia, server: ee-tll.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: Finland, server: fi-hel.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: Hungary, server: hu-bud.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: Kazakhstan, server: kz-ura.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: Latvia, server: lv-rig.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: Luxembourg, server: lu-ste.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: Netherlands, server: nl-ams.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: Norway, server: no-osl.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: Romania, server: ro-buc.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: Slovakia, server: sk-bts.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: Slovenia, server: si-lju.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: Sweden, server: se-sto.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: Switzerland, server: ch-zur.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: Turkey, server: tr-bur.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: Ukraine, server: ua-iev.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: United Kingdom 1, server: uk-lon.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: United Kingdom 2, server: uk-man.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
+  - {name: United Kingdom 3, server: uk-gla.wbnet.cf, port: 39646, type: ss, cipher: aes-256-gcm, password: Zu8N9rAd3u9bACtRjsuYT9Bm, udp: true}
 
 proxy-groups:
   - name: Auto
@@ -39,6 +40,7 @@ proxy-groups:
     proxies:
       - ArgoVPN1
       - ArgoVPN2
+      - ArgoVPN3
       - Austria
       - Azerbaijan
       - Belgium
